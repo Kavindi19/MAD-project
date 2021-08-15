@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/w2"
+    tools:context=".BookDisplay">
+
+    <ImageView
+        android:id="@+id/book"
+        android:layout_width="179dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/book1" />
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/book_name"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/book_description"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_description"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/price"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/price"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/buy_now"
+
+
+        />
+
+    <Button
+        android:id="@+id/add_to_cart"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/price"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/add_to_cart"
+
+        />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:numStars="5"
+        android:layout_below="@+id/add_to_cart"
+        android:stepSize=".5"
+
+        />
+
+</RelativeLayout>

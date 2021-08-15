@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w2"
+    tools:context=".Oder_list">
+
+    <TextView
+        android:layout_width="161dp"
+        android:layout_height="38dp"
+        android:text="@string/order_list"
+        android:textColor="@color/black"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+ />
+
+    <ImageView
+        android:id="@+id/book2"
+        android:layout_width="160dp"
+        android:layout_height="220dp"
+        android:src="@drawable/book1"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/cart_price1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="200dp"
+        android:text="@string/price_rs_880"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/quantity_label2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="220dp"
+        android:text="@string/quantity_1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/book3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/book3"
+        android:layout_marginTop="350dp"
+
+        />
+
+    <TextView
+        android:id="@+id/cart_price2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="200dp"
+        android:text="@string/price_rs_550"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/quantity_label4"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp"
+        android:text="@string/quantity_2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="130dp"
+        android:text="@string/total_price_rs_1430"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="105dp"
+        android:layout_marginLeft="120dp"
+        android:background="@color/teal_700"
+        android:textSize="18sp"
+
+        />
+
+    <Button
+        android:id="@+id/cart_orderlist"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/_orderlist"
+        android:layout_below="@+id/total"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="65dp"
+         />
+
+
+    <Button
+        android:id="@+id/category_orderlist"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:text="@string/category_orderlist"
+        android:layout_below="@+id/total"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="255dp"
+        />
+
+
+
+
+</RelativeLayout>

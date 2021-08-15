@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w2"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profilepic"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="34dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/regcustomer"
+        android:text="@string/my_profile1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/name_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilepic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/name_display"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/email_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_display"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/email_tprof"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/phonenumber_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_display"
+        android:layout_marginTop="41dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/phonenumber_display"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/edit_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenumber_display"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/edit_profile_button"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:src="@drawable/regcustomer"
+        android:background="@color/teal_700"
+        />
+
+    <Button
+        android:id="@+id/delete_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_profile_btn"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/delete_profile_btn"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:background="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/dashboard_myprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delete_profile_btn"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/dashboard_mtprofile"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:background="@color/black"/>
+
+</RelativeLayout>

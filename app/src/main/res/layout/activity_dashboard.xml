@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w2"
+    tools:context=".DASHBOARD">
+
+     <TextView
+         android:id="@+id/dashboard"
+         android:layout_width="200dp"
+         android:layout_height="50dp"
+         android:layout_marginLeft="100dp"
+         android:layout_marginTop="30dp"
+         android:text="@string/dashboard"
+         android:textStyle="bold"
+         android:textSize="24dp"
+         android:textAlignment="center"
+         android:textColor="@color/black"
+         android:background="@drawable/regcustomer"
+         />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@+id/dashboard"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:text="Profile"
+        android:background="@drawable/regcustomer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_below="@+id/dashboard"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="205dp"
+        android:text="Category"
+        android:background="@drawable/regcustomer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/btn1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/regcustomer"
+        android:text="Cart"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_below="@+id/btn2"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="205dp"
+        android:text="My orders"
+        android:background="@drawable/regcustomer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_below="@+id/btn3"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:text="Logout"
+        android:background="@drawable/regcustomer"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        />
+</RelativeLayout>

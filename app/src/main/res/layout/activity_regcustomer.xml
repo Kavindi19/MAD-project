@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regcustomer"
+    android:background="@drawable/w2"
+    >
+
+
+    <ImageView
+        android:id="@+id/login_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/create_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_applogo"
+        android:text="@string/create_customer"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/your_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/create_customer"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/regcustomer"
+        android:hint="@string/your_name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+         />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/your_name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:height="50dp"
+        android:background="@drawable/regcustomer"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:height="50dp"
+        android:background="@drawable/regcustomer"
+        android:hint="@string/phonenumber"
+        android:textAlignment="center"
+        android:inputType="phone"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernamecreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenumber"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:height="50dp"
+        android:background="@drawable/regcustomer"
+        android:hint="@string/usernamecreate"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/passwordcreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernamecreate"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/regcustomer"
+         android:hint="@string/passwordcreate"
+        android:padding="20dp"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cusregbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordcreate"
+        android:layout_marginTop="20dp"
+        android:text="@string/cusregbutton"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:background="@color/design_default_color_secondary_variant"
+        android:textSize="20sp"
+        android:textAlignment="center"
+
+        />
+
+
+
+
+
+</RelativeLayout>
